@@ -1,0 +1,73 @@
+{
+  "sites": [
+    {
+      "name": "contactsenators.com",
+      "pages_shipped": 4,
+      "tools_shipped": 3,
+      "experiments": 1,
+      "last_activity": "2026-03-14",
+      "priorities": ["Deploy Mission Control", "Expand calculator cluster", "Set up preview flow"],
+      "wip": ["Mission Control MVP", "Vercel preview"],
+      "shipped": ["SNAP calculator", "SSDI estimator", "Grants screener"],
+      "opportunities": ["State SNAP pages", "Benefits glossary", "Grant finder pages"]
+    },
+    {
+      "name": "scijournal.org",
+      "pages_shipped": 1,
+      "tools_shipped": 1,
+      "experiments": 0,
+      "last_activity": "2026-03-14",
+      "priorities": ["Journal advisor MVP", "Submission helper"],
+      "wip": ["Positioning rethink"],
+      "shipped": ["Planning notes"],
+      "opportunities": ["Journal fit tool", "Reviewer response helper"]
+    },
+    {
+      "name": "craftymotherfather.com",
+      "pages_shipped": 0,
+      "tools_shipped": 0,
+      "experiments": 0,
+      "last_activity": "2026-03-14",
+      "priorities": ["Define site direction", "List first content tools"],
+      "wip": ["Portfolio planning"],
+      "shipped": [],
+      "opportunities": ["Parenting tools", "Printables", "Family content clusters"]
+    }
+  ],
+  "shipping_feed": [
+    {
+      "timestamp": "2026-03-14 09:21",
+      "action": "Shipped SNAP/SSDI/Grants tools",
+      "link": "file:///Users/sjtsai/.openclaw/workspace/contactsenators/index.html",
+      "site": "contactsenators.com"
+    },
+    {
+      "timestamp": "2026-03-14 15:46",
+      "action": "Created Mission Control MVP",
+      "link": "",
+      "site": "portfolio"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "Deploy Mission Control to Vercel preview",
+      "impact": 9,
+      "confidence": 10,
+      "effort": 1,
+      "status": "wip"
+    },
+    {
+      "task": "Audit ContactSenators tools",
+      "impact": 8,
+      "confidence": 8,
+      "effort": 2,
+      "status": "queued"
+    }
+  ],
+  "daily_summary": {
+    "did": "Built Mission Control MVP and shipped 3 ContactSenators tools",
+    "changed": "Local dashboard is now renderable over HTTP",
+    "worked": "HTML shell, JSON-backed structure, proof-of-work layout",
+    "next": "Deploy preview URL and improve Opportunities section"
+  }
+}
